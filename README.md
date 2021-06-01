@@ -17,8 +17,11 @@ A simple admin panel for managing system for pharmacy built using Java, JavaDb d
     <br>
     <li>Admin adds new bills of medicine, and as soon as the medicine bill is made quantity of medicine descreases</li>
 </ul>
+
 Loader
 ![loader](https://user-images.githubusercontent.com/72461048/120349020-05387580-c2fe-11eb-9a16-9600ff06b480.png)
+
+
 
 Login Form
 ![loginForm](https://user-images.githubusercontent.com/72461048/120349130-226d4400-c2fe-11eb-847a-03a00fce5733.png)
