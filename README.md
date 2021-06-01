@@ -21,8 +21,6 @@ A simple admin panel for managing system for pharmacy built using Java, JavaDb d
 Loader
 ![loader](https://user-images.githubusercontent.com/72461048/120349020-05387580-c2fe-11eb-9a16-9600ff06b480.png)
 
-
-
 Login Form
 ![loginForm](https://user-images.githubusercontent.com/72461048/120349130-226d4400-c2fe-11eb-847a-03a00fce5733.png)
 
@@ -48,4 +46,11 @@ Manage Medicine
 
 One Medicine's data
 ![selectMedicine](https://user-images.githubusercontent.com/72461048/120349932-d1118480-c2fe-11eb-9adc-6c64fea26c61.png)
+
+Manage Billing
+![manageBilling](https://user-images.githubusercontent.com/72461048/120350096-f56d6100-c2fe-11eb-8743-1a6f9c063246.png)
+
+Bill's Data
+![addBill](https://user-images.githubusercontent.com/72461048/120350132-fdc59c00-c2fe-11eb-9db1-ef0123f08312.png)
+
 
