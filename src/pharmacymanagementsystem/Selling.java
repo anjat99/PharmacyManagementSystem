@@ -65,14 +65,12 @@ public class Selling extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         btnClear = new javax.swing.JButton();
         lblDate = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         MedicineTable = new javax.swing.JTable();
         jLabel13 = new javax.swing.JLabel();
         tbQty = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        lblSeller = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         taBill = new javax.swing.JTextArea();
         lblAgents = new javax.swing.JLabel();
@@ -147,11 +145,6 @@ public class Selling extends javax.swing.JFrame {
         lblDate.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblDate.setText("dd-MM-yyyy");
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(204, 0, 51));
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("Seller:");
-
         MedicineTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null},
@@ -189,11 +182,6 @@ public class Selling extends javax.swing.JFrame {
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Bill Date:");
 
-        lblSeller.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        lblSeller.setForeground(new java.awt.Color(102, 102, 102));
-        lblSeller.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblSeller.setText("Joe Doe");
-
         taBill.setColumns(20);
         taBill.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         taBill.setRows(5);
@@ -225,10 +213,7 @@ public class Selling extends javax.swing.JFrame {
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 654, Short.MAX_VALUE)
                         .addContainerGap())
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(lblSeller)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jLabel1)
                         .addGap(136, 136, 136)
                         .addComponent(jLabel4)
@@ -263,18 +248,11 @@ public class Selling extends javax.swing.JFrame {
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel4)
-                            .addComponent(lblDate)))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel3)
-                            .addComponent(lblSeller))))
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel4)
+                    .addComponent(lblDate))
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(58, 58, 58)
@@ -555,7 +533,6 @@ public class Selling extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
@@ -568,7 +545,6 @@ public class Selling extends javax.swing.JFrame {
     private javax.swing.JLabel lblCompany;
     private javax.swing.JLabel lblDate;
     private javax.swing.JLabel lblMedicines;
-    private javax.swing.JLabel lblSeller;
     private javax.swing.JTextArea taBill;
     private javax.swing.JTextField tbBillId;
     private javax.swing.JTextField tbMedicine;
