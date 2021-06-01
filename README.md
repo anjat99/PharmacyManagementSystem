@@ -4,7 +4,7 @@
 
 ## About Project
 
-A simple admin panel for managing system for pharmacy built using Java, JavaDb database.
+A simple admin panel for managing system for pharmacy built using Java, JavaDb database, JFrame Forms, Swing Components.
 
 ## Features
 <ul>
