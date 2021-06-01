@@ -29,7 +29,7 @@ public class Selling extends javax.swing.JFrame {
         initComponents();
         GetAllMedicines();
         ShowDate();
-        ShowSeller();
+       
     }
     
     public void ShowDate()
@@ -39,10 +39,7 @@ public class Selling extends javax.swing.JFrame {
         lblDate.setText(sdf.format(date));
     }
     
-    public void ShowSeller()
-    {
-       System.getProperty("agents.name");
-    }
+   
 
     /* Connection with db*/
     Connection conn = null;
