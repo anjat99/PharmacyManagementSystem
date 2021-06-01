@@ -16,6 +16,7 @@ A simple admin panel for managing system for pharmacy built using Java, JavaDb d
     <li>Admin adds new medicine company info, but he also updates the data or deletes an existing company if needed.</li>
     <br>
     <li>Admin adds new bills of medicine, and as soon as the medicine bill is made quantity of medicine descreases</li>
+    <li>By Clicking on the Print button, the bill for the desired medicine can be printed</li>
 </ul>
 
 Loader
